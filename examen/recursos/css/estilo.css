@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    background: url('../images/fondo.jpg' ) no-repeat; 
+    background-size: cover;
+   
+}
+#barra1{
+    background-color: slateblue;
+    color: snow;
+    font-size: 28px;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    
+}
+#titulo a{
+ background-color: red;
+ border-radius: 10px;
+ text-decoration: none;
+ color: white;
+
+}
+#titulo img{
+    border-radius: 28px;
+}
+#barra1 ul li{
+    padding: 5px ;
+   
+}
+#barra1 ul li a{
+    color: white;
+}
+#barra2{
+    text-align: center;
+    background-color: wheat;
+}
+#barra2 article div{
+    background-color: white;
+    border-radius: 10px;
+}
+#barra2 article div :hover{
+    background-color: violet;
+    font-size: 13px;
+    border-radius: 25px;
+
+
+}
+#barra2 article div a{
+    color: rgb(0, 0, 0);
+    font-size: 25px ;
+}
+#titulo{
+    text-align: center;
+    justify-content: center;
+}
+#guard {
+    border-radius: 20 px;
+}
+#fauna {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;     opacity:.6;
+    width: 800px;
+    height: 920px;
+    text-align: center;
+
+}
+#fauna div{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+footer{
+   
+    background-color: white;
+    padding-left: 625px;
+
+}
+#pie1{
+    float: left;
+}
+#pi2{
+    float: right;
+}
+
+#barra2 div{
+    animation: traslado 1000ms ease-in;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000%);
+}
+/*Animacion traslado*/
+
+@keyframes traslado {
+    0% { transform: translateX(1000%) }
+    75% { transform: translateX(50%); }
+    100%{ transform: translateX(0%); }
+   }
